@@ -1,3 +1,13 @@
+# MASIRAT TASK 3
+
+    1. src > BlogPosts.js contain code to fetch blog posts from backend with axios.
+    2. screenshot of the frontend fetching blog posts is available in "screenshot.png" at the project root folder.
+    3. brief explanation on how I would secure the API calls in production ennvironment is added in the "production-secure-explanation.md" file available at the project root folder.
+
+
+
+    
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
