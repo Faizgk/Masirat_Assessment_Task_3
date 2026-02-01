@@ -12,17 +12,32 @@
 }
 
 .refresh-button {
-  background-color: #007bff;
-  color: white;
-  border: none;
-  padding: 8px 16px;
-  border-radius: 4px;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  border: 1px solid #333;
+  padding: 10px 20px;
+  border-radius: 6px; 
+  font-family: 'Inter', sans-serif; 
+  font-weight: 500;
+  font-size: 14px;
   cursor: pointer;
-  margin-bottom: 20px;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  letter-spacing: 0.3px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
 }
 
 .refresh-button:hover {
-  background-color: #0056b3;
+  background-color: #333;
+  border-color: #555;
+}
+
+.posts-list.is-refreshing {
+    opacity: 0.4;
+    pointer-events: none; /* prevent clicking anything while loading */
+    transition: opacity 0.2s ease;
 }
 
 .error {

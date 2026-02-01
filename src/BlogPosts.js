@@ -37,7 +37,7 @@ const BlogPosts = () => {
             {loading && <p>Loading posts...</p>}
             {error && <p className="error">{error}</p>}
 
-            <div className="posts-list">
+            <div className={`posts-list ${loading ? "is-refreshing" : ""}`}>
                 {posts.map((post) => (
                     <div key={post.id} className="post-card">
                         {post.featuredImage && (
